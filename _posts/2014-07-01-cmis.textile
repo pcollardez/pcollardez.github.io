@@ -1,0 +1,30 @@
+---
+layout: site
+title: CMIS
+html_title: CMIS
+category: runningproject
+---
+
+h1. CMIS(Content Management Interoperability Services)
+
+Dans le cadre de mon activité de directeur technique, j'ai suivi l'évolution de CMIS et je l'ai recommandé pour plusieurs projets relatifs à la gestion documentaire.
+
+Je contribue notamment aux bibliothèques "Chemistry":http://chemistry.apache.org/ de la fondation Apache, et plus particulièrement aux bibliothèques PHP et Python, car celles-ci n'ont pas autant de contributeurs que la bibliothèque Java, alors qu'il existe un besoin réel.
+
+J'ai par ailleurs développé et libéré une extension Python spécifique à Alfresco, qui permet de gérer les aspects: "cmislib-alfresco-extension":https://code.google.com/p/cmislib-alfresco-extension/.
+
+h2. Missions accomplies
+
+* Conception
+* Développement
+* Documentation
+* Tests et intégration
+
+h2. Environnement technique
+
+<div class="taglist">
+* PHP
+* Python
+* CMIS
+* Alfresco
+</div>

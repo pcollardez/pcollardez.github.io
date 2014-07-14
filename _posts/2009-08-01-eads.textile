@@ -1,0 +1,56 @@
+---
+layout: site
+title: EADS Défense et Sécurité
+html_title: Gestion sécurisée de documents et gestion de droits en B2B
+category: mission
+---
+
+h1. Gestion sécurisée de documents et gestion de droits en B2B
+
+h3. Gestion sécurisée de documents
+
+Pour le compte d'EADS Défense et Sécurité ("Cassidian":http://www.cassidian.com), j'ai créé un système de signatures certifiées à 3 niveaux reposant sur l'utilisation de XMLDsig et Xades.
+Ce système gère également des niveaux de sécurité (SDN.801c, RFC 3114, RFC 3281, X.509).
+
+Il est inclus nativement dans Alfreco, OpenOffice, MSOffice, l'explorateur de fichiers de Windows, et TrustedBird à l'aide d'extensions développées pour chaque produit.
+
+Il repose sur une bibliothèque dédiée à la gestion des informations de sécurité, des signatures et des formats de documents.
+
+h3. Gestion de droits en B2B
+
+J'ai analysé des outils de filtrage de contenu et de gestion de la sécurité des endpoints, l'objectif étant de les étendre pour gérer des niveaux de sécurité (DPI et analyse des contenus en transit).
+
+En parallèle, dans le cadre de projets de recherche européens, j'ai apporté mon expertise sur la mise au point d'un système de gestion des accès et des droits en B2B multi-partenaires sur la base d'ontologies adaptées à l'expression des règles d'accès.
+
+
+h2. Missions accomplies
+
+* Rédaction de dossiers d'études
+* Chiffrages
+* Planification
+* Rédaction des spécifications
+* Définition et choix de l'architecture
+* Développement
+* Suivi des plannings et développements
+
+h2. Environnement technique
+
+<div class="taglist">
+* Java
+* C/C++
+* Javascript
+* XUL
+* XML
+* XMLDsig
+* Xades
+* OWL
+* SAML
+* XACML
+* RBAC
+* UML
+* Alfresco
+* OpenOffice SDK
+* MSOffice SDK
+* Windows
+* Linux
+</div>

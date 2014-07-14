@@ -1,0 +1,48 @@
+<header>
+  <div class="container">
+    <h1 id="logo" class="content">
+      <a href="{{ site.url }}/" data-escp="">Patrice Collardez</a>
+    </h1>
+    <nav id="nav">
+      <ul class="content" id="main-menu">
+        <li{% if page.body_class == 'overview' %} class="current"{% endif %}>
+          <a href="{{ site.url }}/">Accueil</a>
+        </li>
+
+	<li>
+          <a href="#">Projets</a>
+          <ul>
+	    {% for post in site.posts %}
+	      <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </li>
+  	    {% endfor %}
+          </ul>
+        </li>
+
+        <li{% if page.body_class == 'contact' %} class="current"{% endif %}>
+          <a href="#">Contact</a>
+		  <ul>
+			<li><a href="https://github.com/pcollardez">GitHub</a></li>
+			<li><a href="http://fr.linkedin.com/in/pcollardez">LinkedIn</a></li>
+			<li><a href="http://www.viadeo.com/fr/profile/patrice.collardez">Viadeo</a></li>
+		  </ul>
+        </li>
+      </ul>
+
+    <select id="main-menu-mob">
+	<option value="#">Aller &agrave;...</option>
+	<option value="/">&nbsp;Accueil </option>
+	{% for post in site.posts %}
+	  <option value="{{ post.url }}">&nbsp;{{ post.title }} </option>
+  	{% endfor %}
+	<option value="#">Contact </option>
+	  <option value="https://github.com/pcollardez">&nbsp;GitHub </option>
+	  <option value="http://fr.linkedin.com/in/pcollardez">&nbsp;LinkedIn </option>
+	  <option value="http://www.viadeo.com/fr/profile/patrice.collardez">&nbsp;Viadeo </option>
+    </select>
+
+    </nav>
+  </div>
+ 
+</header>

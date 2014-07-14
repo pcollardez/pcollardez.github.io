@@ -1,0 +1,39 @@
+---
+layout: site
+title: STAR
+html_title: STAR
+category: project
+---
+
+h1. STAR
+
+Système de génération des dossiers d’appel d’offre pour les arrêts de maintenance de sites industriels.
+
+La société Artesys International est spécialisée dans la gestion électronique de documents techniques, notamment orientée vers l’industrie. Dans l’optique de développer les possibilités d’utilisation du produit Gédéon, le système STAR s’appuie sur la gestion des équipements et des pièces (SAP) et la gestion documentaire pour produire des dossiers d’appel d’offre à destination des sous-traitants en charge de travaux lors des arrêts de maintenance.
+
+Organisé selon les différentes étapes de constitution d’un dossier, STAR permet d’assembler des informations de différentes natures afin de produire des documents Word et Excel structurés et accessibles aux métiers des sous-traitants.
+
+h2. Missions accomplies
+
+* Spécifications
+** Chiffrages
+** Rédaction des spécifications
+* Conception
+** Révision locale de l’architecture
+** Conception détaillée
+* Développement
+* Tests unitaires et intégration
+* Installations et formations
+
+h2. Environnement technique
+
+<div class="taglist">
+* VISUAL BASIC 6
+* VBA
+* C
+* MICROSOFT WORD
+* EXCEL
+* ORACLE
+* MERISE
+* WINDOWS
+</div>

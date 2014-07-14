@@ -1,0 +1,30 @@
+---
+layout: site
+body_class: overview
+---
+<section class="main">
+  <h1>Projets en cours</h1>
+  <ul>
+  {% for post in site.categories.runningproject %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+  <h1>Missions réalisées</h1>
+  <ul>
+  {% for post in site.categories.mission %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+  <h1>Projets réalisés</h1>
+  <ul>
+  {% for post in site.categories.project %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+</section>

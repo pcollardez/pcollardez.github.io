@@ -1,0 +1,61 @@
+---
+layout: site
+title: Directeur technique
+html_title: Directeur technique
+category: mission
+---
+
+h1. Directeur technique
+
+En tant que directeur technique, j'ai analysé les logiciels et les architectures développés par Acxio, puis j'ai proposé des axes d'améliorations pour chaque logiciel et chaque architecture. Pour cela, j'ai étudié de nombreuses offres afin de proposer dans chaque cas une des meilleures options du monde Open Source.
+
+Parallèlement, j'ai mis en place des normes de codage, des entrepôts de source (Subversion, puis Mercurial, puis Git), un processus d'analyse de code automatisé (Sonar), une production des livrables par l'utilisation de Maven ou Ant, et un entrepôt de tickets (JIRA).
+
+J'ai également mis en place un entrepôt documentaire central pour l'ensemble des collaborateurs, avec un outil de travail en groupe (Alfresco), sécurisé par SSL.
+
+Enfin, j'ai mis en place un serveur de virtualisation distant à l'usage des équipes de développement et de qualification.
+
+Par ailleurs, j'ai réalisé un accompagnement et des formations internes des développeurs aux techniques de programmation Java, Spring, Python et Nagare, j'ai imposé l'usage systématique d'un annuaire pour gérer les identités (LDAP), point de départ pour la mise en place d'un modèle d'authentification homogène.
+
+J'ai également réalisé l'accompagnement des développeurs à l'usage d'Alfresco pour la gestion documentaire connectée aux applications métier dédiées à la gestion de ressources d'organismes de formation.
+
+Enfin j'ai réalisé l'accompagnement des développeurs à l'usage d'Android pour les applications mobiles connectées à des services métiers en SaaS.
+
+h2. Missions accomplies
+
+* Rédaction de cahier des charges
+* Rédaction de dossiers d'études
+* Chiffrages
+* Planifications
+* Rédaction des spécifications
+* Définition et choix d'architectures
+* Développement
+* Suivi des plannings et développements
+* Gestion de 2 centres de développement
+
+h2. Environnement technique
+
+<div class="taglist">
+* Java
+* Spring
+* Python
+* C/C++
+* C#
+* Javascript
+* Actionscript
+* XML
+* HTML
+* CSS
+* Spring
+* UML
+* Alfresco
+* Nuxeo
+* Documentum
+* SSL
+* LDAP
+* CMIS
+* Oracle
+* PostgreSQL
+* Linux
+* Windows
+</div>

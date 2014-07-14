@@ -1,0 +1,54 @@
+---
+layout: site
+title: AGIA
+html_title: AGIA
+category: runningproject
+---
+
+h1. AGIA(Advanced Generic Injection Automaton)
+
+"AGIA":https://github.com/acxio/AGIA est un outil de traitements par lots et de programmation de tâches basé sur "Spring-Batch":http://projects.spring.io/spring-batch/, et totalement configurable à l'aide de fichiers XML.
+
+Il est notamment doté de fonctionnalités d'export, de transformation et de chargement de documents pour Alfresco, Nuxeo, Google Drive, et tous les entrepôts compatibles avec CMIS.
+
+Il peut également interagir avec des bases de données, des services SOAP ou XmlRPC, manipuler des fichiers en local ou via HTTP ou FTP.
+
+Les fonctions de transformation sont notamment implémentées par un language de script directement utilisable lors de la configuration des tâches.
+
+AGIA est une application portable prête à l'emploi dotée d'un serveur web, d'une console de gestion et de points d'entrée JMX.
+
+Le mode de distribution d'AGIA permet d'isoler totalement les extensions du noyau de l'application, ce qui facilite les mises à jour indépendantes des extensions et du noyau.
+
+AGIA est une application libre sous licence Apache v2.0 dont le code est hébergé sur GitHub.
+
+h2. Missions accomplies
+
+* Spécifications
+** Rédaction du cahier des charges
+** Chiffrages
+** Planification
+** Rédaction des spécifications
+* Conception
+** Définition de l’architecture globale
+** Conception détaillée
+* Développement
+* Documentation
+* Tests et intégration
+* Suivi des plannings et développements
+* Installation et mise en production
+* Libération de l'application
+
+h2. Environnement technique
+
+<div class="taglist">
+* Java
+* Spring
+* XML
+* CMIS
+* Alfresco
+* Nuxeo
+* Google Drive
+* UML
+* Linux
+* Windows
+</div>

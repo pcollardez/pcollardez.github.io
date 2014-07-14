@@ -1,0 +1,39 @@
+---
+layout: site
+title: Gestion et sécurisation du SI
+html_title: Gestion et sécurisation du SI
+category: mission
+---
+
+h1. Gestion et sécurisation du SI
+
+Dès le début de ma mission en Roumanie, j'ai détecté une intrusion et réalisé une analyse post-mortem d'un serveur.
+J'ai ensuite mis en place une politique globale de sécurité : règles d'installation générales des OS, configuration standard des firewall, mise en place de SSL (HTTPS et FTPS) et d'OpenVPN, mise en place d'un IPS, logs chiffrés transmis chaque heure vers une boîte à lettre.
+
+J'ai apporté mon expertise en sécurité du SI pour divers clients.
+
+Je suis devenu le référant interne pour tous les sujets relatifs à la sécurité.
+
+h2. Missions accomplies
+
+* Rédaction de procédures
+* Rédaction de recommandations
+* Analyse de systèmes et d'intrusions
+* Installation et configuration de systèmes (Debian Linux, Windows)
+* Sécurisation de systèmes (Debian Linux, Windows)
+* Audit interne des applications développées
+
+h2. Environnement technique
+
+<div class="taglist">
+* OWASP
+* IPTables
+* SSH
+* SSL
+* Snort
+* OpenVPN
+* BackTrack
+* ClearOS
+* Debian Linux
+* Windows
+</div>

@@ -1,0 +1,31 @@
+---
+layout: site
+title: MasterDoc
+html_title: MasterDoc
+category: project
+---
+
+h1. MasterDoc
+
+Gestion de documents et de leur cycle de vie sous Lotus Notes.
+
+h2. Missions accomplies
+
+* Rédaction du cahier des charges
+* Chiffrages
+* Planification
+* Rédaction des spécifications
+* Définition et choix de l'architecture
+* Développement
+* Validations
+* Rédaction des documents d'exploitation
+* Installations
+* Formations
+
+h2. Environnement technique
+
+<div class="taglist">
+* Lotus Notes 4.5 et 5
+* OMT (Object Modeling Technique)
+* Windows
+</div>

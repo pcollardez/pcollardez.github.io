@@ -1,0 +1,76 @@
+---
+layout: site
+title: Hestia
+html_title: Hestia
+category: project
+---
+
+h1. Hestia
+
+Le projet Hestia est un démonstrateur qui a pour ambition de poser les bases d’un système de formation à distance des cellules de crise pour les sites Seveso II.
+
+Construit comme un jeu vidéo, c’est un Serious Game proposant les outils de travail et de communication nécessaires aux apprenants, ainsi qu’une vision 3D des évènements tels qu’ils se dérouleraient sur un site réel.
+
+Le projet consistait notamment à proposer un moyen de formation à distance qui puisse être utilisé par les différents acteurs de la gestion de crise sans nécessiter la mobilisation des moyens mis en oeuvre dans un exercice réel.
+
+Hestia s’articule en deux sous-ensembles de logiciels : les outils de travail courants des acteurs et les modules de simulation. Dans la première catégorie on retrouve "Openfire":http://www.igniterealtime.org/projects/openfire, "Zimbra":http://www.zimbra.com/, "OPIDIS":{{ site.url }}/2005/01/01/opidis.html et "ActiGIS":http://www.netagis.com/ ; dans la seconde : un panneau de contrôle pour le formateur (JSP, SVG), l’environnement 3D interactif ("Virtools":http://www.virtools.fr/), le système de scénarisation (ISEN), des modèles mathématiques de simulation (feu, fumée...), un SIG représentant la fumée (ActiGIS), un réseau bayésien modélisant les évènements possibles, leurs effets et permettant d’initialiser un scénario aléatoire ("Bayesia":http://www.bayesia.com/), et un protocole réseau orchestrant l’ensemble (UDP).
+
+Ce système, présenté à "Laval Virtual":http://www.laval-virtual.org/ 2007, a reçu le prix "Ingénierie, Montage et Maintenance industrielle".
+
+h2. Caractéristiques
+
+table(caracclass).
+| Budget | 500k€ |
+| Charges | 900h.j |
+| Equipe | Plusieurs partenaires et un sous-traitant |
+| Durée | 15 mois |
+| Partenaires | "Artesys International":http://www.artesys.com/, "Bayesia":http://www.bayesia.com/, Nautilus, Inkame, "CEA List":http://www-list.cea.fr/, "Clarte":http://www.clarte.asso.fr/, "Laval Mayenne Technopole":http://www.laval-technopole.fr/ |
+| Partenaires métier | "Mory group":http://www.morygroup.com/, SDIS Laval, Préfecture de la Mayenne |
+| Sous-traitants | "Netagis":http://www.netagis.com/ |
+
+h2. Missions accomplies
+
+* Spécifications
+** Rédaction du cahier des charges
+** Chiffrages
+** Planification
+** Rédaction des spécifications
+* Conception
+** Définition et choix de l’architecture globale
+** Conception détaillée du protocole réseau, de l’interface de contrôle
+* Développement
+** Développement du serveur de messages, de l’interface de contrôle et des plugins réseau
+* Tests unitaires et intégration
+* Suivi des plannings et développements
+** Gestion de plusieurs partenaires et sous-traitants
+
+h2. Environnement technique
+
+<div class="taglist">
+* Java
+* C/C++
+* Multi-thread
+* HTML
+* XML
+* JSP
+* TCP/IP
+* UDP
+* Opidis
+* Réseaux bayésiens
+* Virtools
+* Oracle
+* Tomcat
+* UML
+* Windows
+* Linux
+</div>
+<div class="clearleft"></div>
+
+h2. Portfolio
+
+<div class="portfolio">
+* !{{ site.url }}/assets/tbn/HST_poster1.png!:{{ site.url }}/assets/img/HST_poster1.gif
+* !{{ site.url }}/assets/tbn/HST_poster2.png!:{{ site.url }}/assets/img/HST_poster2.gif
+* !{{ site.url }}/assets/tbn/HST_Les_Echos.jpg!:{{ site.url }}/assets/img/HST_Les_Echos.jpg
+* !{{ site.url }}/assets/tbn/HST_01Informatique.jpg!:{{ site.url }}/assets/img/HST_01Informatique.jpg
+</div>
